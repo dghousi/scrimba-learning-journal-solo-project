@@ -1,0 +1,15 @@
+.about-post {
+  grid-column: 1 / -1;
+  padding: 0 1em;
+}
+
+.profile-image {
+  padding: 2em 0;
+}
+@media (min-width: 650px) {
+  .about-post {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+}
